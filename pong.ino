@@ -63,7 +63,7 @@ Bat new_bat(Bat* bat, int x) {
   bat->y_pos = BAT_Y_POS;
 }
 
-Bat new_ball(Ball* ball) {
+Ball new_ball(Ball* ball) {
   ball->radius = BALL_RADIUS;
   ball->x_pos = BALL_X_POS;
   ball->y_pos = BALL_Y_POS;
